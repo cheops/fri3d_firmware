@@ -6,6 +6,7 @@
 #include "boards/fox/bsp.h"
 #elifdef CONFIG_FRI3D_BADGE_OCTOPUS
 #include "boards/octopus/bsp.h"
+#include "boards/octopus/lis2hh12.h"
 #else
 #error "Unknown board type"
 #endif

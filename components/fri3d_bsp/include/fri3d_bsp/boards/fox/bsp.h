@@ -17,4 +17,11 @@
 
 // Leds
 #define BSP_LED_RGB_GPIO        (GPIO_NUM_12)
-#define BSP_LED_NUM             (5)
+#define BSP_LED_NUM             (15)
+
+// IC2
+#define BSP_IC2_SDA             (GPIO_NUM_9)
+#define BSP_IC2_SCL             (GPIO_NUM_18)
+
+// IMU
+#define BSP_IMU_ADDR            (0x68)
