@@ -13,4 +13,5 @@
 
 #include "bsp_button.h"
 #include "bsp_buzzer.h"
+#include "bsp_display.h"
 #include "bsp_led.h"
