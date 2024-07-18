@@ -8,6 +8,7 @@ set(PRIV_DEPS
         "fri3d_bsp"
         "fri3d_application"
         "fri3d_launcher"
+        "fri3d_util"
 )
 
 idf_component_register(
