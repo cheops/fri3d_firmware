@@ -5,9 +5,10 @@ set(SRCS
 )
 
 set(PRIV_DEPS
-        "fri3d_bsp"
         "fri3d_application"
+        "fri3d_bsp"
         "fri3d_launcher"
+        "fri3d_splash"
         "fri3d_util"
 )
 

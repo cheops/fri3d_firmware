@@ -37,6 +37,8 @@ idf_component_register(
         "${SRCS}"
         INCLUDE_DIRS
         "include"
+        PRIV_INCLUDE_DIRS
+        "src/include"
         REQUIRES
         "${DEPS}"
         PRIV_REQUIRES

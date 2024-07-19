@@ -1,19 +1,15 @@
 include(${CMAKE_BINARY_DIR}/../../../cmake/fri3d_component.cmake)
 
 set(SRCS
-        "src/app.cpp"
-        "src/app_manager.cpp"
-        "src/application.cpp"
-        "src/lvgl.cpp"
-        "src/indev.cpp"
+        "src/splash.cpp"
 )
 
 set(DEPS
-        ""
+        "fri3d_application"
 )
 
 set(PRIV_DEPS
-        "fri3d_bsp"
+        "fri3d_util"
 )
 
 idf_component_register(
